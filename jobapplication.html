@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<form  method="post" enctype="multipart/form-data">
+	<!---table1--->
+	<table border="1" width="100%" cellspacing="0" cellpadding="50" >
+		<tr>
+			<th  style="color:white;font-size:50px;" bgcolor="blue">
+		 	JOB APPLICATION
+			</th>
+		</tr>
+	</table>
+	<!---table2--->
+	<table border="l" width="100%" cellspacing="0" cellpadding="30">
+		<tr>
+		<td align="center" style="font-size:25px;" bgcolor="maghani">
+		<strong>
+		applicant information
+		</strong>
+		</td>
+		</tr>
+	</table><br><br><br>
+		
+		full name:<input type="text" name="text" size="100" required >
+                 date:<input type="date"><br><br>
+		ADDRESS:<textarea rows="10" cols="200"  placeholder="city"></textarea>
+		<br><br>
+		phonenumber:<input type="number" name="text" required >
+		email:<input type="text" name="text" size="100"  value="@gmail.com" ><br><br>
+		position applied for:<select  width="50" name="sltype">
+				<option value="s1">--select--</option>
+				<option value="s2">developer</option>
+				<option value="s3">coder</option>
+				<option>programmer</option>
+					</select>     
+		 you are:
+		<input type="radio" name="rdgender" value="m">MALE
+		<input type="radio" name="rdgender" value="f">FEMALE
+		<input type="radio" name="rdgender" value="o">OTHER<br><br><br>
+		Are you citizen of united states:<input type="radio" name="rdtype" value="y">YES
+						<input type="radio" name="rdtype" value="n">N0
+				<br><br>
+		have you ever worked for this company:<input type="radio" name="rdtype" value="y1">YES
+						<input type="radio" name="rdtype" value="n1">N0
+		<br><br>
+		if yes when:<textarea rows="2" cols="40"></textarea><br><br>
+		<input type="submit"><br><br>
+		<!---table3--->
+	<table border="l" width="100%" cellspacing="0" cellpadding="30">
+		<tr>
+		<td align="center" style="font-size:25px;" bgcolor="GREY">
+		<strong>
+		EDUCATION
+		</strong>
+		</td>
+		</tr>
+	</table><br><br><br>
+		<input type="text" name="text" size="100" placeholder="schoolname" required>
+		from<input type="date">to<input type="date">
+		<br><br>
+		did you gradute:<input type="radio" name="rdtype" value="y3">YES
+				<input type="radio" name="rdtype" value="n3">NO
+		<br><br>
+		<input type="text" name="text" size="100" placeholder="intermediatecollegename" required>
+		from<input type="date">to<input type="date">
+		<br><br>
+		did you gradute:<input type="radio" name="rdtype" value="y4">YES
+				<input type="radio" name="rdtype" value="n4">NO
+		<br><br>
+		<input type="text" name="text" size="100" placeholder="university" required>
+		from<input type="date">to<input type="date">
+		<br><br>
+		did you gradute:<input type="radio" name="rdtype" value="y5">YES
+				<input type="radio" name="rdtype" value="n5">NO
+		<br><br>
+		<input type="submit"><br><br>
+		<!---table4--->
+	<table border="l" width="100%" cellspacing="0" cellpadding="30">
+		<tr>
+		<td align="center" style="font-size:25px;" bgcolor="plum">
+		<strong>
+		CERTIFICATES UPLOAD
+		</strong>
+		</td>
+		</tr>
+	</table><br><br>
+		school:<input type="file"><br><br>
+		interm:<input type="file"><br><br>
+		college:<input type="file"><br><br>
+		<input type="submit"><br><br>
+		<!---table5--->
+	<table border="l" width="100%" cellspacing="0" cellpadding="30">
+		<tr>
+		<td align="center" style="font-size:25px;" bgcolor="turquoise">
+		<strong>
+		DISCLAIMER AND SIGNATURE
+		</strong>
+		</td>
+		</tr>
+	</table><br><br>
+		<input type="checkbox" name="chkterm" value="term" required >
+		I certify that my answer are true and complete to the best of my knowledge.
+		<br>
+		If this application leads to employment,I understand that false or misleading information in my application or interview may result in my realease.
+		<br><br><br>
+		signature:
+		<input type="file">
+		<br><br>
+		<input type="submit"><br><br>
+</form>
+		
+	
+
+
+</body>
+</html>
